@@ -24,6 +24,7 @@ body {
     padding: 0 20px; /* Add some padding for responsiveness */
     max-width: 1200px; /* Optional: Limit header width */
     margin: 0 auto; /* Center the header */
+
 }
 
 .logo {
@@ -98,7 +99,7 @@ nav ul li a:hover {
 }
 
 .home-content h1:first-of-type { /* Applies to the first <h1> inside home-content */
-    color: gold;
+  color: #c2185b;
     font-size: 2rem;
     font-weight: 600;
 }
@@ -121,7 +122,7 @@ nav ul li a:hover {
 .btn {
     display: inline-block;
     padding: 12px 25px;
-    background-color: goldenrod;
+    background-color:#c2185b; ;
     color: white;
     font-weight: bold;
     text-decoration: none;
@@ -132,7 +133,7 @@ nav ul li a:hover {
 }
 
 .btn:hover {
-    background-color: violet;
+    background-color: #106935;
 }
 
 /* Collections Section Styling */
@@ -217,7 +218,7 @@ nav ul li a:hover {
 
 .Collection-info .details {
     font-size: 14px;
-    color: goldenrod;
+    color: #c2185b;;
     margin-bottom: 15px;
 }
 
@@ -228,12 +229,12 @@ nav ul li a:hover {
 
 .Collection-info .details span i {
     margin-right: 5px;
-    color: goldenrod;
+    color: #c2185b;;
 }
 
 .Collection-info .btn {
     display: inline-block;
-    background-color: goldenrod;
+    background-color: #c2185b;;
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
@@ -244,7 +245,7 @@ nav ul li a:hover {
 }
 
 .Collection-info .btn:hover {
-    background-color: violet; /* Consistent hover color */
+    background-color: #106935; /* Consistent hover color */
 }
 
 /* Why Us Section Styling */

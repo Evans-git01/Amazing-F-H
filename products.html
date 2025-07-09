@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Products - Luxelily Female Hub Sales</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <section class="header">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">LUXELILY <span>FEMALE HUB SALES</span></div>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="products.html" class="active">Products</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section class="products-section">
+    <div class="container">
+      <h1 class="section-title">Our Products</h1>
+      <p class="section-subtitle">Curated collections for every kind of woman</p>
+
+      <div class="product-grid">
+        <!-- Product Card -->
+        <div class="product-card">
+          <img src="/img1.jpg" alt="Blazer Set" />
+          <h3>Urban-Chic Blazer Set</h3>
+          <p class="price">$270</p>
+          <p>Includes blazer, blouse, trouser, handbag & heels</p>
+          <a href="#" class="btn">Buy Now</a>
+        </div>
+
+        <div class="product-card">
+          <img src="/img2.jpg" alt="Boss Babe Outfit" />
+          <h3>Boss Babe Outfit</h3>
+          <p class="price">$135</p>
+          <p>Jeans, sweater & suede ankle boots combo</p>
+          <a href="#" class="btn">Buy Now</a>
+        </div>
+
+        <div class="product-card">
+          <img src="/img3.jpg" alt="Soft Girl Kit" />
+          <h3>Soft Girl Starter Pack</h3>
+          <p class="price">$90</p>
+          <p>Includes sports bra, canvas shoes & wellness powder</p>
+          <a href="#" class="btn">Buy Now</a>
+        </div>
+
+        <div class="product-card">
+          <img src="/img4.jpg" alt="Wellness Kit" />
+          <h3>Self-Care & Wellness Kit</h3>
+          <p class="price">$110</p>
+          <p>Face roller, moisturizer & soothing essentials</p>
+          <a href="#" class="btn">Buy Now</a>
+        </div>
+
+        <div class="product-card">
+          <img src="/img5.jpg" alt="Makeup Essentials" />
+          <h3>Everyday Glam Kit</h3>
+          <p class="price">$45</p>
+          <p>Includes lip gloss, mascara, and eyeshadow</p>
+          <a href="#" class="btn">Buy Now</a>
+        </div>
+
+        <div class="product-card">
+          <img src="/img6.jpg" alt="Picnic Basket" />
+          <h3>Pre-Packed Picnic Basket</h3>
+          <p class="price">$22</p>
+          <p>Stylish picnic essentials for your weekend unwind</p>
+          <a href="#" class="btn">Buy Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="products.html">Products</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <p>Subscribe to our newsletter for the new arrivals</p>
+      <div class="copyright">
+        &copy; 2025 LUXELILY FEMALE HUBS. All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+ 
+  <style>
+   /* Products Section */
+.products-section {
+  padding: 60px 20px;
+  background-color: #fff8fb;
+  text-align: center;
+}
+
+.products-section .section-title {
+  font-size: 36px;
+  color: #c2185b;
+  margin-bottom: 10px;
+}
+
+.products-section .section-subtitle {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.product-card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 20px;
+  width: 280px;
+  text-align: center;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.product-card:hover {
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+
+.product-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.product-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.product-card .price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #e91e63;
+  margin-bottom: 10px;
+}
+
+.product-card p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.product-card .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #d81b60;
+  color: #fff;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.product-card .btn:hover {
+  background-color: #106935;
+}
+
+  </style>
+
+</body>
+</html>
